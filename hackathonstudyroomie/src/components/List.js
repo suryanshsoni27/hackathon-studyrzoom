@@ -1,9 +1,18 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
+
+
 
 function List() {
+  
     return (
         <div>
-            <h1>I am list</h1>
+            <h1>Availabe Courses</h1>
+            <Button variant="dark">Dark</Button>
+            <Button variant="dark">Dark</Button>
+            <Button variant="dark">Dark</Button>
+            <Button variant="dark">Dark</Button>
+            <Button variant="dark">Dark</Button>
         </div>
     )
 }
