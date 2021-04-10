@@ -8,4 +8,4 @@ function Header() {
     )
 }
 
-export default HeadeH
+export default Header
