@@ -8,6 +8,7 @@ function List() {
     return (
         <div id="list">
             <div className="list">
+            
                 <ButtonSR name = "Engineering"></ButtonSR>
                 <ButtonSR name = "Mathematics" ></ButtonSR>
                 <ButtonSR name = "Artificial Intelligence" ></ButtonSR>
