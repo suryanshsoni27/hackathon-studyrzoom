@@ -1,18 +1,19 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
 
-
+import  ButtonSR from "./ButtonSR"
+import "../css/List.css"
 
 function List() {
   
     return (
-        <div>
-            <h1>Availabe Courses</h1>
-            <Button variant="dark">Dark</Button>
-            <Button variant="dark">Dark</Button>
-            <Button variant="dark">Dark</Button>
-            <Button variant="dark">Dark</Button>
-            <Button variant="dark">Dark</Button>
+        <div id="list">
+            <div className="list">
+                <ButtonSR name = "Engineering"></ButtonSR>
+                <ButtonSR name = "Mathematics" ></ButtonSR>
+                <ButtonSR name = "Artificial Intelligence" ></ButtonSR>
+                <ButtonSR name = "Machine Learing"></ButtonSR>
+                <ButtonSR name = "Science"></ButtonSR>
+            </div>
         </div>
     )
 }

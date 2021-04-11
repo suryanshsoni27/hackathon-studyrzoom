@@ -1,0 +1,19 @@
+.ButtonSR__button {
+    transition: all .2s ease-in-out;
+    flex: 1;
+    border: 1px;
+    background: blue;
+    width: 50vw;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.8;
+}
+
+.ButtonSR__button:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
